@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/action_email"
+        android:icon="@drawable/ic_baseline_email_24"
+        app:showAsAction="always"
+        android:title="Email"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/action_Call"
+        android:icon="@drawable/ic_baseline_call_24"
+        app:showAsAction="always"
+        android:title="Call"/>
+    <item
+        android:id="@+id/action_message"
+        android:icon="@drawable/ic_baseline_message_24"
+        app:showAsAction="never"
+        android:title="message"/>
+</menu>

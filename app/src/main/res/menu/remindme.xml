@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/one"
+        android:title="Reg NO"
+        android:icon="@drawable/ic_baseline_how_to_reg_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/two"
+        android:title="Image"
+        android:icon="@drawable/ic_baseline_image_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/three"
+        android:title="text"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_format_color_text_24"/>
+
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:contentDescription="Recepies"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".FoodRecepie">
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="242dp"
+            android:layout_height="128dp"
+            android:layout_marginBottom="584dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="117dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="500dp"
+            android:text="Chole Bhature"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#F30B0B"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="403dp"
+            android:layout_height="77dp"
+            android:layout_marginBottom="408dp"
+            android:text="Chole bhature is a popular North Indian dish consisting of spicy chickpeas (chole) and deep-fried bread (bhature)"
+            android:textColor="#4CAF50"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="114dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="332dp"
+            android:text="Ingredients"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="290dp"
+            android:layout_height="336dp"
+            android:layout_marginBottom="4dp"
+            android:text="For Chole:  1 cup dried chickpeas (or 2 cans of cooked chickpeas) \n 1 onion, \n finely chopped 1 tomato, \n finely chopped 1 teaspoon ginger paste 1 teaspoon garlic paste 2 green chilies, finely chopped \n (optional) 1 teaspoon cumin seeds \n 1 teaspoon coriander powder \n 1 teaspoon cumin powder \n 1 teaspoon red chili powder \n 1/2 teaspoon turmeric powder \n 1 teaspoon garam masala powder \n 2 tablespoons oil Salt, to taste Water,  as needed \n For Bhature:  2 cups all-purpose flour \n 1/2 teaspoon baking powder \n 1/2 teaspoon salt \n 2 tablespoons oil \n 1/2 cup plain yogurt Water, as needed Oil, for deep frying Optional garnishes:"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.386"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
